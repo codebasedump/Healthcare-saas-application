@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent body scroll */
+}
+
+
+/* Root container */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+/* Layout wrapper for header, main, footer */
+.layout-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Main content */
+.main-content {
+ 
+  padding: 40px;
+  overflow-y: auto;
+  background-color: #fff;
+  
+  font-family: var(--font-main);
+  flex: 1 1 auto;
+  overflow-y: auto; /* Only this scrolls */
+
+}
+
+
+/* Sidebar user info */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  background-color: #3788d8;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.username {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Logout button */
+.logout-btn {
+  margin-top: 20px;
+  background-color: #e2908c;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-main);
+}

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #ffffff;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.05);
+  font-family: var(--font-main);
+  width: 100%;
+  position: relative;
+}
+
+/* .footer {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 2rem;
+} */

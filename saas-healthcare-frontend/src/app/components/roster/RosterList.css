@@ -1,0 +1,61 @@
+.roster-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.roster-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.roster-list .loading,
+.roster-list .empty {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+.roster-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.roster-item {
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #f0f8ff;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.roster-date {
+  font-weight: 500;
+  color: #555;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-top: 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-badge.active {
+  background-color: #d4f4dd;
+  color: #2e7d32;
+}
+
+.status-badge.cancelled {
+  background-color: #ffe0e0;
+  color: #c62828;
+}
